@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Cambiado el color de fondo a una imagen -->
+    <item android:drawable="@drawable/imggeneral" />
+
+    <!-- Mantenido el espacio alrededor y agregado una forma con esquinas redondeadas -->
+    <item
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp"
+        android:bottom="10dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="8dp" />
+            <!-- Cambiado el color sólido por una imagen -->
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+
+</layer-list>
